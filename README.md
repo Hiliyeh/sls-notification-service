@@ -7,7 +7,7 @@
 ## Getting started
 
 ```
-sls create --name YOUR_PROJECT_NAME --template-url https://github.com/Hiliyeh/sls-base
+sls create --name YOUR_PROJECT_NAME --template-url https://github.com/Hiliyeh/sls-notification-service
 cd YOUR_PROJECT_NAME
 npm install
 ```
