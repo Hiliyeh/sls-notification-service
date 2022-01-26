@@ -9,7 +9,7 @@ provider:
   name: aws
   runtime: nodejs12.x
   memorySize: 256
-  region: eu-west-1
+  region: eu-east-1
   stage: ${opt:stage, 'dev'}
   iamRoleStatements:
     - ${file(iam/SendMailIAM.yml):SendMailIAM}
